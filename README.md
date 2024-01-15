@@ -35,8 +35,9 @@ Submission:
 
 Requirements:
 
-* Node.js (recommended v. >=9)
-* NPM v. >=5
+* Node.js (recommended v. >=18)
+* Styled Components
+
 
 ```bash
 npm install
