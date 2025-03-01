@@ -31,9 +31,9 @@ const routes = [
     },
     config: {
       validate: {
-        params: {
+        params: Joi.object({
           id: Joi.string().required(),
-        },
+        }),
       },
     },
   },
@@ -69,9 +69,9 @@ const routes = [
     },
     config: {
       validate: {
-        params: {
+        params: Joi.object({
           id: Joi.string().required(),
-        },
+        }),
       },
     },
   },
@@ -94,9 +94,9 @@ const routes = [
     },
     config: {
       validate: {
-        params: {
-          id: Joi.required(),
-        },
+        params: Joi.object({
+          id: Joi.string().required(),
+        }),
       },
     },
   },
